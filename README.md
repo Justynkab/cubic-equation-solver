@@ -42,32 +42,3 @@ Feel free to submit issues or pull requests for improvements.
 ## License
 
 This project is licensed under the MIT License.
-
-### Commands to Upload to GitHub
-
-1. Initialize a new Git repository:
-   ```
-   git init
-   ```
-
-2. Add all files to the repository:
-   ```
-   git add .
-   ```
-
-3. Commit the changes:
-   ```
-   git commit -m "Initial commit"
-   ```
-
-4. Create a new repository on GitHub (do this on the GitHub website).
-
-5. Link the local repository to the GitHub repository:
-   ```
-   git remote add origin https://github.com/yourusername/cubic-equation-solver.git
-   ```
-
-6. Push the changes to GitHub:
-   ```
-   git push -u origin master
-   ```
