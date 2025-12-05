@@ -7,11 +7,11 @@ int main() {
     scanf("%lf %lf %lf %lf", &a, &b, &c, &d);
 
     Complex roots[3];
-    int numRoots = solveCubic(a, b, c, d, roots);
+    solve_cubic(a, b, c, d, roots);
 
     printf("The roots of the equation are:\n");
-    for (int i = 0; i < numRoots; i++) {
-        printComplex(roots[i]);
+    for (int i = 0; i < 3; i++) {
+        print_complex(roots[i]);
     }
 
     return 0;
